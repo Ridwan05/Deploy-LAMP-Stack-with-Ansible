@@ -1,4 +1,4 @@
-# AltShool Second Semester Exam
+# AltSchool Second Semester Exam
 
 ## In this exercise, I deployed Laravel app with Ansible
 
@@ -8,14 +8,17 @@
 
 ## I created _host-inventory_ and playbook _laravel.yml_
 
-## The playbook is configured to perform the following task:
-- create a user
+## The playbook is configured to perform the following tasks:
+- create a user and work as that user
 - install apache
 - install git
 - install curl
 - install php and it's dependencies
 - download and install composer
-- grant all neccessary permission
+- grant all neccessary permissions
 - install laravel dependencies
 - restart apache
 - Secure Apache with SSL Free Certificate
+
+## Issues
+- I had issue running `composer install` from playbook because it should not be run as root, I tried using _become_ module but It didn't work. 
