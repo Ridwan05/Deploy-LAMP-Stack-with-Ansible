@@ -12,9 +12,9 @@ LOG_LEVEL=debug
 DB_CONNECTION=pgsql
 DB_HOST=localhost
 DB_PORT=5432
-DB_DATABASE=ridwan
+DB_DATABASE=your_database
 DB_USERNAME=postgres
-DB_PASSWORD=Khadijah74
+DB_PASSWORD=your_password
 
 BROADCAST_DRIVER=log
 CACHE_DRIVER=file

@@ -1,7 +1,7 @@
  <VirtualHost *:80>
      ServerName ridwandemo.me
      ServerAlias www.ridwandemo.me
-     ServerAdmin ridohlah74@gmail.com
+     ServerAdmin mymail@gmail.com
      DocumentRoot /var/www/html/Laravel/public
 
      <Directory /var/www/html/Laravel>
