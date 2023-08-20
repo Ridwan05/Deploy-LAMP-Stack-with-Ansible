@@ -1,6 +1,12 @@
-# AltSchool Second Semester Exam
+# Deploy Laravel App with Ansible
 
-### In this exercise, I deployed Laravel app with Ansible
+### In this project, I deployed Laravel app with Ansible
+
+### Prerequisites
+- AWS account
+- EC2 instance
+- Vscode with AWS cridentials installed
+- Ansible Preinstalled on PC
 
 ### I created a script _postgres.sh_ to install postgres on the remote server
 
