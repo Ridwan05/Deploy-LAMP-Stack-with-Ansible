@@ -1,4 +1,4 @@
-# Deploy Laravel App with Ansible
+# Deploy LAMP Stach with Ansible
 
 ### In this project, I deployed Laravel app with Ansible
 
